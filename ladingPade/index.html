@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous">>
     <title>Valorant</title>
 </head>
+
 <body>
     <nav>
-        <a href="">😎<p>Sessao 01<p></a>
-        <a href="">🤣<p>Sessao 01<p></a>    
-        <a href="">༼ つ ◕_◕ ༽つ<p>Sessao 01<p></a>
-        <a href="">🤬<p>Sessao 01<p></a>
-            
+        <a href="#s1"><i class="fa-solid fa-cloud"></i>
+            <p>Sessão 01</p>
+        </a>
+        <a href="#s2">😎<p>Sessão 02</p></a>
+        <a href="#s3">༼ つ ◕_◕ ༽つ<p>Sessão 03</p></a>
+        <a href="#s4">🤑<p>Sessão 04</p></a>
+    </nav>
+    <main>
+        <section id="s1">
+            <div class="wrap-img">
+                <img class="img-s1" src="./imagem/pic.png" alt="Imagem exemplo">
+            </div>
+            <div class="wrap-words">
+                <h2>OMEN</h2>
+                <p>
+                    Omen é um agente controlador em Valorant, conhecido por suas habilidades de manipulação da visão e
+                    teletransporte, que o tornam eficaz em controlar o campo de batalha e confundir os inimigos. Ele é
+                    um
+                    personagem misterioso e fantasmagórico, com habilidades que incluem cegar inimigos, criar cortinas
+                    de
+                    fumaça e se teleportar pelo mapa.
+                </p>
+            </div>
+        </section>
+        <section id="s2">
+            <h2>Tecnologias trabalhadas</h2>
+            <div class="wrap-cards">
+                <div class="card">
+                    <img width="100px" height="auto" src="./imagem/images.png" alt="Imagem card 1">
+                    <h3>html</h3>
+                    <p>HTML (HyperText Markup Language) é a linguagem padrão usada para criar e estruturar páginas da web. É a base para a construção de sites, permitindo a inclusão de textos, imagens, links e outros elementos. Não é uma linguagem de programação, mas sim uma linguagem de marcação que define a estrutura e o conteúdo de uma página</p>
+                </div>
+                <div class="card">
+                    <img width="100px" height="auto" src="./imagem/88153d7f-6a9c-4b57-8e92-123a69ba1beb.webp" alt="Imagem card 2">
+                    <h3>css</h3>
+                    <p>CSS, ou Folhas de Estilo em Cascatas, é uma linguagem usada para descrever a apresentação de documentos HTML, ou seja, como os elementos de uma página web são exibidos no navegador. Simplificando, o CSS define o visual de um site, como cores, fontes, espaçamento e layout, enquanto o HTML estrutura o conteúdo da página. </p>
+                </div>
+                <div class="card">
+                    <img width="100px" height="auto" src="./imagem/javascript.webp" alt="Imagem card 3">
+                    <h3>javascript</h3>
+                    <p>JavaScript é uma linguagem de programação de alto nível, usada principalmente para adicionar interatividade a páginas web, mas também pode ser usada no backend com Node.js. É fundamental para o desenvolvimento front-end e oferece recursos como animações, manipulação de conteúdo dinâmico e interações com o usuário. </p>
+                </div>
+            </div>
+        </section>
+        <section id="s3">03</section>
+        <section id="s4">
+            <h2>Contato</h2>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Insira seu nome">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" placeholder="Insira o assunto">
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </section>
+         
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
